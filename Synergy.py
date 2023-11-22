@@ -99,7 +99,7 @@ def update(nickname):
         for petKey in pet.keys():
             if petKey == nickname:
                 id = int(key)
-    if id == '': raise Exception('В списле нет такого животного')
+    if id == '': raise Exception('В списке нет такого животного')
 
 
     print('Введите животного.')
